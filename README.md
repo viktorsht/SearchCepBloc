@@ -1,16 +1,24 @@
-# search_cep
+# Pesquisador de CEPs Brasileiros
 
-A new Flutter project.
+![Imagem do Aplicativo](assets/search_cep_app.png)
 
-## Getting Started
+Este é um aplicativo Flutter simples que permite aos usuários pesquisar CEPs brasileiros utilizando a API BrasilAPI. O aplicativo utiliza o padrão de gerenciamento de estado BLoC para lidar com a lógica de negócios e a exibição de resultados.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Pesquisa de CEPs brasileiros.
+- Exibição de informações detalhadas sobre o CEP pesquisado, incluindo cidade, estado e bairro.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Configuração
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Pré-requisitos
+
+- Flutter instalado. Para obter instruções de instalação, consulte [o guia oficial do Flutter](https://flutter.dev/docs/get-started/install).
+
+### Configuração do Projeto
+
+1. Clone este repositório para sua máquina local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/pesquisador-de-ceps.git
+   cd pesquisador-de-ceps
